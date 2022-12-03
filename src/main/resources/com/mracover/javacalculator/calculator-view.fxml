@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.geometry.*?>
+<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
@@ -31,7 +32,7 @@
                   <Font size="25.0" />
                </font>
             </Button>
-            <Button layoutX="146.0" layoutY="100.0" mnemonicParsing="false" onAction="#processNumber" prefHeight="49.0" prefWidth="52.0" text="9">
+            <Button cache="true" layoutX="146.0" layoutY="100.0" mnemonicParsing="false" onAction="#processNumber" prefHeight="49.0" prefWidth="52.0" text="9">
                <font>
                   <Font size="25.0" />
                </font>
@@ -155,6 +156,9 @@
                <font>
                   <Font size="25.0" />
                </font>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
             </Button>
             <Button layoutX="289.0" layoutY="28.0" mnemonicParsing="false" onAction="#processUnaryOperator" prefHeight="49.0" prefWidth="52.0" text="Log">
                <font>
